@@ -20,7 +20,7 @@ $("#submit-form").submit((e)=>{
       checkName()
       checkEmail()
       checkNumber()
-      console.log(flag)
+    //   console.log(flag)
 
       if(flag == 3){
          $.ajax({
